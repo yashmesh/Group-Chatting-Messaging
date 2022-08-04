@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import { SignIn, Slack } from './';
+import { SignIn, Slack } from '.';
 import { UserContext } from '../providers/UserProvider';
 
 const PrivateRoute = ({ component: Component, isLoggedIn, ...others }) => {

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import { Sidebar, MainContainer } from './';
+import { Sidebar, MainContainer } from '.';
 import { auth, firestore } from '../firebase';
 
 function useQuery() {
